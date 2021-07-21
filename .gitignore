@@ -1,0 +1,27 @@
+###> symfony/framework-bundle ###
+**/.DS_Store
+!**/.gitkeep
+.idea
+.git
+.env
+/public/bundles/
+/var/
+/vendor/
+/node_modules/
+/web/upload/*
+!/web/upload/.keep
+###< symfony/framework-bundle ###
+
+
+### SSH key and DATABASE ###
+/docker/db/mongo/*
+/docker/db/data/*
+/docker/runtime/*
+
+/package-lock.json
+/process_status_log.txt
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
